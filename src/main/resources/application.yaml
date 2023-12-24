@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: relationship
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: false
+  sql:
+    init:
+      mode: always
